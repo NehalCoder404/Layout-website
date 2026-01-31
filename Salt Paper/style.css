@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+header{
+    width: 1350px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+
+header >img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.header-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.btn{
+    padding: 14px 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+.header-links .header-btn{
+
+    background-color: red;
+    border: none;
+    margin: 0 10px;
+    padding: 16px 25px;
+}
+
+.heroSection{
+    width: 100%;
+}
+
+.heroSection img{
+    width: 1350px;
+    height: 82vh;
+    overflow: hidden;
+}
+
+.ourBandSection{
+    width: 1350px;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    /* overflow: hidden; */
+    flex-direction: column;
+}
+
+.ourBandSection .ourBand-Text{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ourBandSection .ourBand-Text h1{
+    line-height: 60px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ourBandSection-Cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ourBandSection-Cards .cards img {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.ourBandSection-Cards .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards button{
+    margin: 20px 0;
+}
+
+.imgSection{
+    height: 90vh;
+    background-color: #212529;
+}
+
+.imgSection-text{
+    width: 1100px;
+    background-color: aqua;
+    margin: 0 auto;
+    
+}
+
+.imgSec-txt{
+    width: 350px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
