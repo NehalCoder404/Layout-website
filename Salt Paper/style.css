@@ -122,7 +122,7 @@ header>img {
 }
 
 .imgSec-txt {
-    margin-top: 80px;
+    margin-top: 70px;
     text-align: center;
 
 }
@@ -151,6 +151,7 @@ header>img {
 
 .s-div-left{
     padding-left: 20px;
+    padding-bottom: 90px;
 }
 
 .s-div-left h4 {
@@ -177,4 +178,5 @@ header>img {
     padding: 17px 20px;
     border: 1px solid white;
     border-radius: 25px;
+    cursor: pointer;
 }
