@@ -171,7 +171,8 @@ header>img {
     margin: 15px 0;
 }
 
-.s-div-left button ,.img-ro1 button{
+.s-div-left button ,.img-ro1 button,
+.Villag-Franchise-contant button{
     margin-top: 48px;
     background-color: #212529;
     color: white;
@@ -204,6 +205,8 @@ header>img {
 
 .ExpressFranchises-img{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 50px 70px;
     gap: 50px;
@@ -211,8 +214,23 @@ header>img {
     /* background-color: blue; */
 }
 
+.img-ro1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    /* background-color: aqua; */
+}
+
+.img-ro1 img {
+    width: 100%;
+    height: 230px;
+}
+
 .img-ro1-contant {
     text-align: center;
+    /* background-color: aqua; */
+    width: 350px;
 }
 
 .img-ro1-contant h6 {
@@ -230,3 +248,39 @@ header>img {
     margin-bottom: 30px;
 }
 
+.S-Villag-Franchise{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 23px;
+    background-color: #0F0F0F;
+}
+
+.M-Villag-Franchise{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.Villag-Franchise-contant{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.Villag-Franchise-contant h4{
+    color: red;
+}
+
+.Villag-Franchise-contant h3{
+    margin-top: 12px;
+    margin-bottom: 22px;
+}
+
+.Villag-Franchise-contant p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+.Villag-Franchise-contant button{
+    background-color: #28A745;
+}
