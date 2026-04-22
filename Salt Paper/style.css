@@ -293,7 +293,7 @@ header>img {
 }
 
 .OpeningSoonContant {
-    padding-top: 50px;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -325,13 +325,109 @@ header>img {
     border-radius: 5px;
 }
 
-.red{
+.red {
     color: red;
     font-size: 11px;
     margin: 20px 0;
 
 }
 
-.OpeningSoonbox h4{
+.OpeningSoonbox h4 {
     margin: 10px 0;
+}
+
+.footer {
+    background-color:#212529;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.main-footer {
+    margin: 0px auto;
+    width: 1080px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.footer-text img {
+    /* background-color: white; */
+    width: 150px;
+}
+
+.footer-text p {
+    margin: 20px 0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.footer-link {
+    padding: 10px 20px;
+    /* flex-grow: 1; */
+    /* background-color: yellow; */
+}
+
+.footer-link p {
+    /* font-size: px; */
+    margin-bottom: 10px;
+}
+
+.footer-link li {
+    font-size: 15px;
+    padding-left: 3px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.footer-contact h5 {
+    font-size: 15px;
+    margin-bottom: 14px;
+    /* background-color: turquoise; */
+}
+
+.footer-contact h4 {
+    margin: 14px 0;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.follow-icons {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.follow-icons i {
+    border-radius: 50%;
+    font-size: 18px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 50px;
+
+    /* flex-direction: row; */
+}
+
+.footer-follow p {
+    margin-bottom: 12px;
+}
+
+.sub-footer{
+    display: flex;
+    /* margin: 0 auto; */
+    padding: 10px 70px;
+    justify-content:space-between;
+    background-color: #0F0F0F;
+}
+
+.sub-footer p{
+    font-weight: 700;
+    font-size: 13px;
 }
